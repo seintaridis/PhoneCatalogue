@@ -1,0 +1,11 @@
+typedef  List* hash_table;
+//typedef Invert_List* hash_table1;
+//void test(akaireos);
+//void test1(Invert_List*);
+hash_table create_hash_table(int size);
+void clear_hash_table(hash_table,int size);
+void clean_hash_table(hash_table table,int size);
+int hash_function(long long int key,int size);
+void print_all_hash_table(hash_table table,int size);
+node* search_hash_table(hash_table table,long long phone,int size);
+void delete_record(hash_table table,int size,long long phone,Invert_List lista);
